@@ -1,0 +1,13 @@
+### GET
+GET http://localhost:8383/api/v1/data
+
+### POST
+POST http://localhost:8383/api/v1/data
+Content-Type: application/json
+
+{
+    "name":"amirul adham"
+}
+
+### DELETE
+DELETE http://localhost:8383/api/v1/delete
