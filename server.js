@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8383;
 let data = ["amirul"];
 
-// Middleware
+// Middleware (built in)
 app.use(express.json());
 
 // app.method(path, handler)
